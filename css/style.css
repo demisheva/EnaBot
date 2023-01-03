@@ -21,8 +21,7 @@
 
 /* HEADER */
 header{
-    height: 7vh;
-    padding: 17px 0px;
+    padding: 22px 0;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -34,16 +33,15 @@ header{
 }
 
 .logo{
-    width: 10vw;
+    width: 9vw;
 }
 
 .logo img{
-    max-width: 100%;
-    
+    max-width: 100%;  
 }
 
 nav{
-    width: 74vw;
+    width: 75vw;
     text-transform: uppercase;
 }
 
@@ -91,7 +89,7 @@ main{
     margin: auto;
 }
 .slogan_block{
-    min-height: 93vh;
+    min-height: 63vh;
     background: linear-gradient(var(--bg_main_section), var(--bg_main_section));
     background-size: 82% auto;
     background-repeat: no-repeat;
@@ -110,7 +108,7 @@ main{
 .slogan_block .slogan_1,
 .slogan_block .slogan_2,
 .slogan_block .slogan_3{
-    width:80%;
+    width: 85%;
     float: right;
 }
 
@@ -120,17 +118,23 @@ main{
 }
 
 .slogan_block .slogan_1{
-    font-size: 18vw;
+    font-size: 288px;
     font-weight: 400;
+    line-height: 288px;
+    position: relative;
+    display: block;
+    top: -15px;
 }
 
 .slogan_block .slogan_2{
-    font-size: 3vw;
+    font-size: 55px;
+    line-height: 55px;
+    padding-bottom: 22px;
     text-transform: uppercase;
 }
 
 .slogan_block .slogan_3{
-    font-size: 1.8vw;
+    font-size: 24px;
 }
 
 .slogan_block_img img{
@@ -151,7 +155,7 @@ main{
     align-items: stretch;
     flex-wrap: nowrap;
     flex-direction: row;
-    margin: 8vh auto;
+    margin: 10vh auto;
 }
 
 .column_2{
