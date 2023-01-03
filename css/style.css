@@ -1,0 +1,259 @@
+:root {
+  --dark_text: #000000;
+  --light_text: #ffffff;
+  --main_color:#079FD0;
+  --bg_main_section:#C4C4C4;
+  --bg_footer:#C4C4C4;
+  --main_font_size: 16px;
+  --main_font_family: 'Montserrat', sans-serif;
+  --font_size_like_h2: 22px;
+  --font_size_nav:12px;
+  --central_width: 93vw;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main_font_family);
+    font-size: var(--main_font_size);
+}
+
+/* HEADER */
+header{
+    height: 7vh;
+    padding: 17px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    column-gap: 20px;
+    width: var(--central_width);
+    margin: auto;
+}
+
+.logo{
+    width: 10vw;
+}
+
+.logo img{
+    max-width: 100%;
+    
+}
+
+nav{
+    width: 74vw;
+    text-transform: uppercase;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--dark_text);
+    font-size: var(--font_size_nav);
+}
+
+button.btn_order{
+    width: 16vw;
+    height: 47px;
+    background-color: var(--main_color);
+    color: var(--light_text);
+    font-size: var(--font_size_nav);
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button.btn_order:hover{
+    background-color: var(--light_text);
+    color: var(--main_color); 
+    border: 1px solid var(--main_color);
+}
+
+
+
+/* MAIN */
+main{
+    width: var(--central_width);
+    margin: auto;
+}
+.slogan_block{
+    min-height: 93vh;
+    background: linear-gradient(var(--bg_main_section), var(--bg_main_section));
+    background-size: 82% auto;
+    background-repeat: no-repeat;
+    width: var(--central_width);
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.slogan_block_gray_bg,
+.slogan_block_img{
+    width: 50%;
+}
+
+.slogan_block .slogan_1,
+.slogan_block .slogan_2,
+.slogan_block .slogan_3{
+    width:80%;
+    float: right;
+}
+
+.slogan_block .slogan_2,
+.slogan_block .slogan_3{
+   color: var(--light_text); 
+}
+
+.slogan_block .slogan_1{
+    font-size: 18vw;
+    font-weight: 400;
+}
+
+.slogan_block .slogan_2{
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+
+.slogan_block .slogan_3{
+    font-size: 1.8vw;
+}
+
+.slogan_block_img img{
+    max-width: 100%;
+}
+
+.padding_left{
+    padding-left: 8vw;
+}
+
+.padding_right{
+    padding-right: 8vw;
+}
+
+.column_wrapper{
+    width: var(--central_width);
+    display: flex;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 8vh auto;
+}
+
+.column_2{
+    width: 50%;
+}
+
+.column_2 img,
+.column_3 img{
+    max-width: 100%; 
+}
+
+.column_2 h1{
+    font-size: 48px;
+    font-weight: 400;
+    color: var(--main_color);
+}
+
+.column_2 p{
+    font-size: 24px;
+    font-weight: 300;
+    margin: 40px auto;
+}
+
+.column_2 p a,
+.column_3 p a{
+    color: var(--main_color);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.column_3{
+    width: 33.33%;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+    row-gap: 40px;
+}
+
+.column_3 h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--main_color); 
+}
+
+.column_3 p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.block_ebo_additionally h1{
+    font-size: 48px;
+    font-weight: 400;
+    color: var(--main_color);
+    text-align: center;
+}
+
+.block_ebo_additionally .column_wrapper{
+    column-gap: 5vw;
+}
+
+
+
+/* FOOTER */
+footer{
+    background-color: var(--bg_footer);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: space-between;
+    column-gap: 2vw;
+    padding: 50px;
+}
+
+.footer_logo img{
+    max-width: 100%;
+}
+
+.footer_menu{
+    background: transparent;
+    font-size: 18px;
+    line-height: 45px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: space-between;
+    column-gap: 8vw;
+}
+
+.footer_menu ul li{
+    list-style: none;
+    font-size: 18px;
+    line-height: 45px;
+}
+
+.footer_menu ul li a{
+   text-decoration: none;
+   color: var(--dark_text);
+}
+
