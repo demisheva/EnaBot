@@ -1,6 +1,6 @@
 # EnaBot
-EnaBot (html/css coding)
-GitHub pages <a href="https://demisheva.github.io/EnaBot/">demisheva.github.io/EnaBot/</a>
+<p>EnaBot (html/css coding)</p>
+<p>GitHub pages <a href="https://demisheva.github.io/EnaBot/">demisheva.github.io/EnaBot/</a></p>
 
 <h1>TASK</h1>
 
